@@ -1,5 +1,7 @@
 package yawnlon.algorithms;
 
+import yawnlon.datastructure.TreeNode;
+
 /**
  * 
  * Given a binary search tree (BST), find the lowest common ancestor (LCA) of

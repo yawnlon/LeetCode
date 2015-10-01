@@ -1,5 +1,7 @@
 package yawnlon.algorithms;
 
+import yawnlon.datastructure.TreeNode;
+
 /**
  * Invert a binary tree.
  *      4
