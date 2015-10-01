@@ -1,5 +1,5 @@
 # LeetCode
-@author yawnlon
+@author yawnlon /n
 @use LeetCode刷题专用
 
 # Pay attention to
