@@ -1,8 +1,7 @@
 # LeetCode
-@author yawnlon /n
-@use LeetCode刷题专用
+@author yawnlon
 
-# Pay attention to
+# Pay Attention
 P237 P191
 
 
