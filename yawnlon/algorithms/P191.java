@@ -10,9 +10,9 @@ package yawnlon.algorithms;
 
 public class P191 {
 
-	public static void main(String[] args) {
-		System.out.println(hammingWeight(11));
-	}
+//	public static void main(String[] args) {
+//		System.out.println(hammingWeight(11));
+//	}
 
 	static public int hammingWeight(int n) {
 		int w = 0, i = 0;
