@@ -19,6 +19,22 @@ public class ListNode {
 		return list[0];
 	}
 
+	public static ListNode init(String data) {
+		String s = data.substring(1, data.length() - 1);
+		if (s == null || s.equals(""))
+			return null;
+		String[] split = s.split(",");
+		int N = split.length;
+		ListNode[] list = new ListNode[N];
+		for (int i = 0; i < N; i++) {
+			list[i] = new ListNode(Integer.parseInt(split[i]));
+		}
+		for (int i = 0; i < N - 1; i++) {
+			list[i].next = list[i + 1];
+		}
+		return list[0];
+	}
+
 	public static ListNode init(int[] data) {
 		int N = data.length;
 		ListNode[] list = new ListNode[N];

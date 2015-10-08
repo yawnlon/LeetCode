@@ -11,22 +11,33 @@ import yawnlon.datastructure.TreeNode;
  */
 
 public class P110 {
-	public boolean isBalanced(TreeNode root) {
+
+//	public static void main(String[] args) {
+//		TreeNode root = TreeNode.init("{1,2,3,#,#,4,#,#,5}");
+//		System.out.println(root.toStirng());
+//		System.out.println(isBalanced(root));
+//	}
+
+	static public boolean isBalanced(TreeNode root) {
 		if (root == null)
 			return true;
-		if (root.left == null && root.right != null) {
-			if (root.right.left != null || root.right.right != null)
-				return false;
-			else
-				return true;
-		} else if (root.right == null && root.left != null) {
-			if (root.left.left != null || root.left.right != null)
-				return false;
-			else
-				return true;
-		} else if (root.left == null && root.right == null)
-			return true;
+
+		if (Math.abs(maxDepth(root.left) - maxDepth(root.right)) > 1)
+			return false;
+
+		return isBalanced(root.left) && isBalanced(root.right);
+	}
+
+	public static int maxDepth(TreeNode root) {
+		if (root == null)
+			return 0;
+		if (root.left == null && root.right == null)
+			return 1;
+		else if (root.left != null && root.right != null)
+			return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+		else if (root.left != null)
+			return 1 + maxDepth(root.left);
 		else
-			return isBalanced(root.left) && isBalanced(root.right);
+			return 1 + maxDepth(root.right);
 	}
 }
