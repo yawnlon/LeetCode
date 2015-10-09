@@ -10,6 +10,6 @@ import yawnlon.datastructure.TreeNode;
 
 public class P101 {
 	public boolean isSymmetric(TreeNode root) {
-		
+		return false;
 	}
 }
