@@ -17,6 +17,7 @@ public class TreeNode {
 	 * @param data
 	 *            LeetCode中二叉树数据, 使用层序遍历构建 example:
 	 *            "[1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5]"
+	 * @return 返回的TreeCode
 	 */
 
 	public static TreeNode init(String data) {
