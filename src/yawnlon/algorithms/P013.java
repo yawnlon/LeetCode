@@ -6,6 +6,6 @@ package yawnlon.algorithms;
  * Input is guaranteed to be within the range from 1 to 3999.
  */
 
-public class P13 {
+public class P013 {
 
 }

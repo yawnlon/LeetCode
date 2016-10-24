@@ -2,7 +2,7 @@ package yawnlon.algorithms;
 
 import yawnlon.datastructure.ListNode;
 
-public class P21 {
+public class P021 {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		if (l1 == null)
 			return l2;
