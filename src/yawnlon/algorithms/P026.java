@@ -16,7 +16,7 @@ package yawnlon.algorithms;
  * @author yawnlon
  *
  */
-public class P26 {
+public class P026 {
 	public int removeDuplicates(int[] nums) {
 		if (nums.length == 0)
 			return 0;

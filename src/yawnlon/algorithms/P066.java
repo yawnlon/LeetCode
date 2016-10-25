@@ -10,6 +10,6 @@ package yawnlon.algorithms;
  * @author yawnlon
  *
  */
-public class P66 {
+public class P066 {
 
 }

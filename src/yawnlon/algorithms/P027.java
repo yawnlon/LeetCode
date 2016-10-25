@@ -10,7 +10,7 @@ import java.util.List;
  * The order of elements can be changed. It doesn't matter what you leave beyond
  * the new length.
  */
-public class P27 {
+public class P027 {
 
 //	public static void main(String[] args) {
 //		int[] nums = new int[] { 4, 5 };
